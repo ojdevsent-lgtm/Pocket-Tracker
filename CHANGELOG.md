@@ -3,6 +3,9 @@
 ## 1.0.0 — 2026-09-22
 
 ### Product hardening
+- Hardened imported and migrated data by normalizing transaction fields and supported budgets.
+- Bumped the service-worker cache after application changes.
+- Added Gumroad listing copy, release checklist and buyer guide.
 - Added visible transaction edit controls.
 - Added keyboard Escape handling for the transaction dialog.
 - Added focus-visible accessibility styling.
