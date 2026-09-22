@@ -1,1 +1,32 @@
-PocketTracker source-code license placeholder. Replace with your final commercial license before sale.
+POCKETTRACKER COMMERCIAL SOURCE LICENSE
+Version 1.0
+
+Copyright (c) 2026 PocketTracker
+
+IMPORTANT: This is a practical template, not legal advice. Review it for your intended Gumroad offering and local law before commercial use.
+
+1. GRANT
+Subject to these terms, the purchaser receives a non-exclusive, non-transferable license to use the purchased PocketTracker source code for personal projects and for websites/apps operated by the purchaser.
+
+2. MODIFICATION
+The purchaser may modify, customize, and extend the source code for their own projects.
+
+3. REDISTRIBUTION
+The purchaser may not resell, sublicense, publish, upload, redistribute, or provide the unmodified source code or a substantially similar source-code package to third parties as a competing source-code product.
+
+4. END PRODUCTS
+The purchaser may deploy and distribute a modified or compiled end product to end users, provided the source code is not distributed in a form that substantially enables redistribution of the original source package.
+
+5. NO TRANSFER OF OWNERSHIP
+This license grants usage rights only. Copyright ownership remains with the copyright holder except for rights expressly granted in this license.
+
+6. NO WARRANTY
+The software is provided "as is", without warranties to the maximum extent permitted by applicable law. The purchaser is responsible for testing and adapting the software to their environment.
+
+7. SUPPORT
+Unless the product listing expressly promises support, purchase of the source code does not create an obligation to provide ongoing support, hosting, maintenance, or updates.
+
+8. TERMINATION
+Rights under this license end if the purchaser materially violates these terms. Copies must then be removed except where retention is required by law.
+
+For licensing questions or a different redistribution model, obtain appropriate legal advice before sale.
