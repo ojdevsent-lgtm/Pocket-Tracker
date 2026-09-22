@@ -6,6 +6,7 @@
 <meta name="theme-color" content="#0f172a">
 <meta name="description" content="PocketTracker is a private, offline-first personal finance tracker.">
 <link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="style.css">
 <title>PocketTracker — Personal Finance</title>
 </head>
@@ -13,42 +14,23 @@
 <header class="topbar">
   <a class="brand" href="#" aria-label="PocketTracker home"><b>₦</b> PocketTracker</a>
   <nav aria-label="Primary navigation">
-    <button data-v="dashboard">Dashboard</button>
-    <button data-v="transactions">Transactions</button>
-    <button data-v="budgets">Budgets</button>
-    <button data-v="reports">Reports</button>
-    <button data-v="settings">Settings</button>
+    <button data-v="dashboard">Dashboard</button><button data-v="transactions">Transactions</button><button data-v="budgets">Budgets</button><button data-v="reports">Reports</button><button data-v="settings">Settings</button>
   </nav>
-  <div class="top-actions">
-    <button id="theme" class="iconbtn" aria-label="Toggle dark mode">☾</button>
-    <button id="add" class="primary">＋ Add</button>
-  </div>
+  <div class="top-actions"><button id="theme" class="iconbtn" aria-label="Toggle dark mode">☾</button><button id="add" class="primary">＋ Add</button></div>
 </header>
 <main id="app"></main>
-
 <div id="modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="formTitle">
 <form id="form" class="dialog">
-  <button type="button" id="close" class="x" aria-label="Close">×</button>
-  <p class="eyebrow">TRANSACTION</p>
-  <h2 id="formTitle">Add transaction</h2>
-  <label>Description<input id="desc" required maxlength="100" autocomplete="off"></label>
-  <div class="two">
-    <label>Amount<input id="amount" type="number" min=".01" step=".01" inputmode="decimal" required></label>
-    <label>Type<select id="kind"><option value="expense">Expense</option><option value="income">Income</option></select></label>
-  </div>
-  <div class="two">
-    <label>Category<select id="cat"></select></label>
-    <label>Date<input id="date" type="date" required></label>
-  </div>
-  <label class="check"><input id="repeat" type="checkbox"> Mark as monthly</label>
-  <p class="hint">This label records that the transaction is monthly; PocketTracker does not create future transactions automatically.</p>
-  <div class="actions"><button type="button" id="cancel">Cancel</button><button class="primary">Save transaction</button></div>
-</form>
-</div>
+<button type="button" id="close" class="x" aria-label="Close">×</button>
+<p class="eyebrow">TRANSACTION</p><h2 id="formTitle">Add transaction</h2>
+<label>Description<input id="desc" required maxlength="100" autocomplete="off"></label>
+<div class="two"><label>Amount<input id="amount" type="number" min=".01" step=".01" inputmode="decimal" required></label><label>Type<select id="kind"><option value="expense">Expense</option><option value="income">Income</option></select></label></div>
+<div class="two"><label>Category<select id="cat"></select></label><label>Date<input id="date" type="date" required></label></div>
+<label class="check"><input id="repeat" type="checkbox"> Mark as monthly</label>
+<p class="hint">This records a monthly label; PocketTracker does not create future transactions automatically.</p>
+<div class="actions"><button type="button" id="cancel">Cancel</button><button class="primary">Save transaction</button></div>
+</form></div>
 <div id="toast" role="status" aria-live="polite"></div>
 <script src="app.js"></script>
-<script>
-if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(()=>{});
-</script>
-</body>
-</html>
+<script>if("serviceWorker" in navigator)navigator.serviceWorker.register("sw.js").catch(()=>{});</script>
+</body></html>
