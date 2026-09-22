@@ -1,23 +1,26 @@
 # PocketTracker
 
-PocketTracker is a privacy-first, offline-first personal finance tracker.
+A privacy-first, offline-first personal finance web app.
 
-## Features
-- Income and expense tracking
-- Categories and search/filtering
-- Monthly spending overview
-- Balance and savings-rate calculations
+## Product features
+- Dashboard: balance, monthly income, expenses and savings rate
+- Transaction manager: add, edit, delete, search and filter
+- Monthly recurring transaction flag
+- Category spending breakdown
+- Monthly category budgets
+- Cash-flow reports
 - CSV export
+- Full JSON backup and restore
+- NGN, USD, GBP and EUR display currencies
 - Dark/light mode
-- Local browser storage
-- No account or API key required
 - Responsive mobile-first interface
+- No backend, account, API key or paid runtime service
 
 ## Run
-Open index.html in a modern browser. No build step or backend is required.
+Open index.html in a modern browser. No build step is required.
 
 ## Data
-Transactions are stored locally in the browser under pockettracker-v1. Export CSV regularly as a backup.
+Transactions are stored locally in browser localStorage. Export a JSON backup before clearing browser data.
 
-## Product packaging
-Before publishing on Gumroad, add screenshots, a commercial license, buyer documentation, and any chosen branding assets.
+## Gumroad packaging
+Before commercial sale, add the final commercial license, screenshots, buyer setup/customization guide and a ZIP containing this source plus a tested production copy.
