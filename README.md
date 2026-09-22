@@ -16,7 +16,9 @@ PocketTracker is a privacy-first, offline-first personal finance web app for eve
 - Dark/light mode
 - Responsive mobile interface
 - Local browser storage — no account, backend, API key or paid runtime service
-- PWA manifest and service worker for supported browsers
+- PWA manifest and service worker
+- Defensive validation for imported and migrated transaction data
+- Buyer-facing Gumroad listing, release checklist and product guide for supported browsers
 
 ## Run
 
